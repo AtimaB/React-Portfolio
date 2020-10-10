@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../src/Assets/BGcode.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+#hello {
+  color: #465e27de;
+  font-size: 70px;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+#name {
+  color: #b48846de;
+  font-size: 40px;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+#atima {
+  color: #33a189e7;
+  font-size: 70px;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+#portfolio1 {
+  color: #b48846de;
+  font-size: 70px;
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+#contact {
+  color: #33a189e7;
+  font-size: 70px;
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 80px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+  color: #1d9eda;
+  font-family: "Poppins", sans-serif;
+}
+
+h5 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+#skills {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+#link {
+  color: white;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#link:hover {
+  color: #1d9eda;
+  font-size: 18px;
+}
+
+#mail,
+#tel {
+  color: white;
+}
+
+#mail:hover,
+#tel:hover {
+  color: #1d9eda;
+  font-size: 16px;
+}
+
+nav ul a {
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+  color: white;
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul a:hover {
+  color: #dace31e8;
+  font-size: 18px;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  color: white;
+  background-color: rgb(12, 12, 12);
+  font-family: "Poppins", sans-serif;
+}
+
+.tabs .tab a {
+  background-color: rgb(12, 12, 12);
+  font-family: "Poppins", sans-serif;
+  color: #1d9eda;
+}
+
+.tabs .tab a:hover {
+  color: #1d9eda;
+  background-color: rgb(12, 12, 12);
+}
+
+.tabs .tab a.active {
+  background-color: rgb(12, 12, 12);
+  color: #1d9eda;
+}
+
+.tabs .indicator {
+  background-color: #1d9eda;
+}
+
+#skills {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-small {
+  background-color: rgba(110, 110, 110, 0.904);
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-small:hover {
+  background-color: lightgray;
+  color: rgba(12, 12, 12, 0.904);
+}
+
+.sidenav li > a {
+  color: rgba(12, 12, 12, 0.904);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+}
+
+.sidenav li > a:hover {
+  color: #1d9eda;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.sidenav {
+  box-shadow: 0 0 transparent;
+}
+
+.card
+  .card-action
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #1d9eda;
+  margin-right: 24px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+
+#media {
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+#media:hover {
+  color: aqua;
+  margin-right: 10px;
+  font-size: 52px;
+}
+
+.hidden {
+  opacity: 0;
+}
+.console-container {
+  font-family: Khula;
+  font-size: 4em;
+  /* text-align:center; */
+  /* height:200px;
+    width:600px; */
+  /* display:block;
+    position:absolute; */
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 45px;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
+}
