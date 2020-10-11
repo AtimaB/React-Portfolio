@@ -12,15 +12,21 @@ class Navbar extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="navbar-fixed">
         <nav>
-          <div className="nav-wrapper">
+          <div
+            className="nav-wrapper"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.918)" }}
+          >
             <a href="#" data-target="slide-out" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
-            <img src=""></img>
-            <a href="#" className="brand-logo">
-              Logo
+            <a href="" class="brand-logo" style={{ fontSize: "20px" }}>
+              <img
+                src="./assets/ablogoWhite.png"
+                alt="atima's logo"
+                style={{ marginTop: "10px", width: "60", height: "50" }}
+              />
             </a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>

@@ -5,13 +5,14 @@ import "materialize-css/dist/css/materialize.min.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <h1>Portfolio</h1>
+        <Header />
         <Footer />
       </div>
     );
