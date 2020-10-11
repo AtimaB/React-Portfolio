@@ -4,8 +4,9 @@ import "materialize-css/dist/css/materialize.min.css";
 // import M from "materialize-css/dist/js/materialize.min.js";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Header />
+        <AboutMe />
         <Footer />
       </div>
     );
