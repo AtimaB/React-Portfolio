@@ -4,7 +4,7 @@ import "materialize-css/dist/css/materialize.min.css";
 
 const AboutMe = () => {
   return (
-    <div className="container">
+    <div>
       <section className="section container scrollspy" id="aboutMe">
         <div className="row">
           <div className="col s12 m5 l5">

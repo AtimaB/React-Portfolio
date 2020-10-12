@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 // get materialize imports
+import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 
 class Navbar extends Component {
   componentDidMount() {
-    const M = window.M;
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".sidenav");
       M.Sidenav.init(elems, {});

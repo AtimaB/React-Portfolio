@@ -18,7 +18,7 @@ class WhatIDo extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div>
         <section className="section container scrollspy" id="services">
           <div className="row">
             <div className="col s12 l4">
@@ -60,19 +60,14 @@ class WhatIDo extends Component {
             </div>
             <div className="col s12 l6 offset-l2">
               <div id="web" className="col s12">
-                <p
-                  className="flow-text"
-                  style={{ textAlign: "center", marginTop: "10px" }}
-                >
-                  <FontAwesomeIcon
-                    icon={faWindowMaximize}
-                    style={{ color: "#1d9eda" }}
-                  />
-                  Web Developer
+                <br />
+                <p style={{ textAlign: "center" }}>
+                  {" "}
+                  I am a Full Stack Web Developer.
                 </p>
-                <p>I am a Full Stack Web Developer.</p>
+                <br />
 
-                <p style={{ fontSize: "20px" }}>My Skills</p>
+                <p style={{ fontSize: "20px" }}> My Skills</p>
                 <ul id="skills">
                   <li style={{ fontSize: "16px" }}>
                     <FontAwesomeIcon icon={faCaretRight} /> HTML
@@ -114,20 +109,12 @@ class WhatIDo extends Component {
                 </ul>
               </div>
               <div id="photo" className="col s12">
-                <p
-                  className="flow-text"
-                  style={{ textAlign: "center", marginTop: "10px" }}
-                >
-                  <FontAwesomeIcon
-                    icon={faCamera}
-                    style={{ color: "#1d9eda" }}
-                  />
-                  Photographer
-                </p>
-                <p>
-                  I take ourdoors pictures, weddings, birthday parties and
+                <p style={{ textAlign: "center" }}>
+                  {" "}
+                  <br />I take ourdoors pictures, weddings, birthday parties and
                   family photoes.
                 </p>
+                <br />
 
                 <p style={{ fontSize: "20px" }}>My Skills</p>
                 <ul id="skills">
