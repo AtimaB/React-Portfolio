@@ -7,7 +7,7 @@ class Navbar extends Component {
     const M = window.M;
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".sidenav");
-      var instances = M.Sidenav.init(elems, {});
+      M.Sidenav.init(elems, {});
     });
   }
   render() {
@@ -46,16 +46,16 @@ class Navbar extends Component {
         </nav>
         <ul id="slide-out" className="sidenav">
           <li>
-            <a href="#aboutMe">About Me</a>
+            <a href="#">About Me</a>
           </li>
           <li>
-            <a href="#services">What I Do...</a>
+            <a href="#">What I Do...</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#">Portfolio</a>
           </li>
           <li>
-            <a href="#contact1">Contact</a>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </div>
