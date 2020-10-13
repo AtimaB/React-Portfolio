@@ -9,3 +9,4 @@
 - [Materializecss tabs with React (npm import)](https://stackoverflow.com/questions/55069297/materializecss-tabs-are-not-working-with-react-npm-import)
 
 - [React Icons](https://react-icons.github.io/)
+- [How to add an image in React JS Application?](https://www.includehelp.com/react-js/how-to-add-an-image-in-react-js-application.aspx)

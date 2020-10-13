@@ -13,6 +13,7 @@ import {
   FaEnvelope,
   FaPhoneAlt,
 } from "react-icons/fa";
+import Resume from "./Resume.pdf";
 
 class Contact extends Component {
   render() {
@@ -45,7 +46,7 @@ class Contact extends Component {
                 <br />
                 <a
                   className="btn-small"
-                  href=""
+                  href={Resume}
                   download="Resume"
                   style={{
                     marginTop: "40px",

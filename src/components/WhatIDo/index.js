@@ -4,6 +4,7 @@ import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 // get react-fontawesome imports
 import { FaFileDownload, FaWindowMaximize, FaCamera } from "react-icons/fa";
+import Resume from "./Resume.pdf";
 
 class WhatIDo extends Component {
   componentDidMount() {
@@ -19,7 +20,7 @@ class WhatIDo extends Component {
               <p>I am a Full Stack Web Developer and a Photographer.</p>
               <a
                 className="btn-small"
-                href="./Resume.pdf"
+                href={Resume}
                 download=""
                 style={{
                   marginTop: "30px",
