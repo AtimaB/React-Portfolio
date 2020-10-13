@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 // get materialize imports
-// import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 // get react-fontawesome imports
 import {

@@ -22,34 +22,35 @@ class Navbar extends Component {
               paddingTop: "10px",
             }}
           >
-            <a href="#" data-target="slide-out" className="sidenav-trigger">
-              <i className="material-icons">menu</i>
-            </a>
-            <a href="#" class="brand-logo" style={{ fontSize: "20px" }}>
-              <img
-                src={logoImg}
-                alt="atima's logo"
-                style={{
-                  marginLeft: "60px",
-                  width: "60px",
-                  height: "50px",
-                }}
-              />
-            </a>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li>
-                <a href="#aboutMe">About Me</a>
-              </li>
-              <li>
-                <a href="#services">What I Do...</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact1">Contact</a>
-              </li>
-            </ul>
+            <div className="container">
+              <a href="#" data-target="slide-out" className="sidenav-trigger">
+                <i className="material-icons">menu</i>
+              </a>
+              <a href="#" class="brand-logo" style={{ fontSize: "20px" }}>
+                <img
+                  src={logoImg}
+                  alt="atima's logo"
+                  style={{
+                    width: "60px",
+                    height: "50px",
+                  }}
+                />
+              </a>
+              <ul id="nav-mobile" className="right hide-on-med-and-down">
+                <li>
+                  <a href="#aboutMe">About Me</a>
+                </li>
+                <li>
+                  <a href="#services">What I Do...</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#contact1">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
         <ul id="slide-out" className="sidenav">
