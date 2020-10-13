@@ -19,8 +19,8 @@ class WhatIDo extends Component {
               <p>I am a Full Stack Web Developer and a Photographer.</p>
               <a
                 className="btn-small"
-                href=""
-                download="Resume"
+                href="./Resume.pdf"
+                download=""
                 style={{
                   marginTop: "30px",
                   marginBottom: "20px",

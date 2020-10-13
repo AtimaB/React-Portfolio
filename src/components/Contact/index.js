@@ -45,7 +45,7 @@ class Contact extends Component {
                 <br />
                 <a
                   className="btn-small"
-                  href="./assets/Resume.pdf"
+                  href=""
                   download="Resume"
                   style={{
                     marginTop: "40px",
@@ -70,10 +70,7 @@ class Contact extends Component {
                 <a href="https://github.com/AtimaB">
                   <FaGithubSquare id="media" />
                 </a>
-                <a
-                  href="https://www.linkedin.com/in/atima-bennett-712ab01a6/"
-                  id="media"
-                >
+                <a href="https://www.linkedin.com/in/atima-bennett-712ab01a6/">
                   <FaLinkedin id="media" />
                 </a>
               </div>

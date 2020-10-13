@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // get materialize imports
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-
+import logoImg from "./ablogoWhite.png";
 class Navbar extends Component {
   componentDidMount() {
     document.addEventListener("DOMContentLoaded", function () {
@@ -16,16 +16,24 @@ class Navbar extends Component {
         <nav>
           <div
             className="nav-wrapper"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.918)" }}
+            style={{
+              backgroundColor: "rgba(0, 0, 0, 0.918)",
+              paddingBottom: "10px",
+              paddingTop: "10px",
+            }}
           >
             <a href="#" data-target="slide-out" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
-            <a href="" class="brand-logo" style={{ fontSize: "20px" }}>
+            <a href="#" class="brand-logo" style={{ fontSize: "20px" }}>
               <img
-                src="./assets/ablogoWhite.png"
+                src={logoImg}
                 alt="atima's logo"
-                style={{ marginTop: "10px", width: "60", height: "50" }}
+                style={{
+                  marginLeft: "60px",
+                  width: "60px",
+                  height: "50px",
+                }}
               />
             </a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">

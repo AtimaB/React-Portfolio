@@ -1,6 +1,7 @@
 import React from "react";
 // get materialize imports
 import "materialize-css/dist/css/materialize.min.css";
+import myImg from "./photo.jpg";
 
 const AboutMe = () => {
   return (
@@ -10,7 +11,7 @@ const AboutMe = () => {
           <div className="col s12 m5 l5">
             <span className="flow-text">
               <img
-                src=""
+                src={myImg}
                 alt="atima's img"
                 style={{ width: "250px", height: "250px" }}
               />
