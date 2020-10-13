@@ -6,7 +6,7 @@ import "materialize-css/dist/css/materialize.min.css";
 class Navbar extends Component {
   componentDidMount() {
     document.addEventListener("DOMContentLoaded", function () {
-      var elems = document.querySelectorAll(".sidenav");
+      let elems = document.querySelectorAll(".sidenav");
       M.Sidenav.init(elems, {});
     });
   }

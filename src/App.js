@@ -7,8 +7,9 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
-import Tabs from "./components/WhatIDo";
 import WhatIDo from "./components/WhatIDo";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 class App extends Component {
   render() {
@@ -18,6 +19,8 @@ class App extends Component {
         <Header />
         <AboutMe />
         <WhatIDo />
+        <Portfolio />
+        <Contact />
         <Footer />
       </div>
     );

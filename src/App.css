@@ -57,7 +57,7 @@ body {
 #contact {
   color: #33a189e7;
   font-size: 70px;
-  text-align: right;
+  text-align: left;
   margin-right: 30px;
   margin-top: 40px;
   font-family: "Poppins", sans-serif;
@@ -72,7 +72,7 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 30px;
   color: #1d9eda;
   font-family: "Poppins", sans-serif;
 }

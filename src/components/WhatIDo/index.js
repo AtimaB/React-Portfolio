@@ -2,15 +2,8 @@ import React, { Component } from "react";
 // get materialize imports
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-// get fontawesome imports
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import all icons
-import {
-  faFileDownload,
-  faWindowMaximize,
-  faCamera,
-  faCaretRight,
-} from "@fortawesome/free-solid-svg-icons";
+// get react-fontawesome imports
+import { FaFileDownload, FaWindowMaximize, FaCamera } from "react-icons/fa";
 
 class WhatIDo extends Component {
   componentDidMount() {
@@ -34,7 +27,7 @@ class WhatIDo extends Component {
                   backgroundColor: "#1d9eda",
                 }}
               >
-                <FontAwesomeIcon icon={faFileDownload} /> My Resume
+                <FaFileDownload /> My Resume
               </a>
             </div>
             <div className="col s12 l6 offset-l2">
@@ -48,12 +41,12 @@ class WhatIDo extends Component {
               >
                 <li className="tab col s6">
                   <a href="#web">
-                    <FontAwesomeIcon icon={faWindowMaximize} /> Web Developer
+                    <FaWindowMaximize /> Web Developer
                   </a>
                 </li>
                 <li className="tab col s6">
                   <a href="#photo">
-                    <FontAwesomeIcon icon={faCamera} /> Photographer
+                    <FaCamera /> Photographer
                   </a>
                 </li>
               </ul>
@@ -69,42 +62,19 @@ class WhatIDo extends Component {
 
                 <p style={{ fontSize: "20px" }}> My Skills</p>
                 <ul id="skills">
+                  <li style={{ fontSize: "16px" }}>- HTML</li>
+                  <li style={{ fontSize: "16px" }}>- CSS</li>
+                  <li style={{ fontSize: "16px" }}>- JavaScript</li>
+                  <li style={{ fontSize: "16px" }}>- JQuery</li>
+                  <li style={{ fontSize: "16px" }}>- Node.js</li>
+                  <li style={{ fontSize: "16px" }}>- MySQL</li>
+                  <li style={{ fontSize: "16px" }}>- MongoDB</li>
+                  <li style={{ fontSize: "16px" }}>- Sequelize</li>
+                  <li style={{ fontSize: "16px" }}>- Express.js</li>
+                  <li style={{ fontSize: "16px" }}>- React.js</li>
+                  <li style={{ fontSize: "16px" }}>- Express-Handlebars</li>
                   <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> HTML
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> CSS
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> JavaScript
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> JQuery
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> Node.js
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> MySQL
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> MongoDB
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> Sequelize
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> Express.js
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> React
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> Express-Handlebars
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> CSS Framework :
-                    Boostrap and Materilaize
+                    - CSS Framework : Bootstrap and Materilaize
                   </li>
                 </ul>
               </div>
@@ -118,18 +88,10 @@ class WhatIDo extends Component {
 
                 <p style={{ fontSize: "20px" }}>My Skills</p>
                 <ul id="skills">
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> Adobe LightRoom
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> Adobe PhotoShop
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> Adobe Illustrator
-                  </li>
-                  <li style={{ fontSize: "16px" }}>
-                    <FontAwesomeIcon icon={faCaretRight} /> Adobe InDesign
-                  </li>
+                  <li style={{ fontSize: "16px" }}>- Adobe LightRoom</li>
+                  <li style={{ fontSize: "16px" }}>- Adobe PhotoShop</li>
+                  <li style={{ fontSize: "16px" }}>- Adobe Illustrator</li>
+                  <li style={{ fontSize: "16px" }}>- Adobe InDesign</li>
                 </ul>
               </div>
             </div>
