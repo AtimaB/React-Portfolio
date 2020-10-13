@@ -1,23 +1,23 @@
 import React, { Component } from "react";
-// get materialize imports
-import M from "materialize-css";
+import M from "materialize-css/dist/js/materialize.min.js";
+// import { BrowserRouter, Route } from "react-router-dom";
 import "materialize-css/dist/css/materialize.min.css";
 import logoImg from "./ablogoWhite.png";
+
 class Navbar extends Component {
   componentDidMount() {
-    document.addEventListener("DOMContentLoaded", function () {
-      let elems = document.querySelectorAll(".sidenav");
-      M.Sidenav.init(elems, {});
-    });
+    var elem = document.querySelector(".sidenav");
+    M.Sidenav.init(elem, {});
   }
+
   render() {
     return (
-      <div className="navbar-fixed">
+      <div>
         <nav>
           <div
             className="nav-wrapper"
             style={{
-              backgroundColor: "rgba(0, 0, 0, 0.918)",
+              backgroundColor: "black",
               paddingBottom: "10px",
               paddingTop: "10px",
             }}
@@ -38,32 +38,32 @@ class Navbar extends Component {
             </a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>
-                <a href="#">About Me</a>
+                <a href="#aboutMe">About Me</a>
               </li>
               <li>
-                <a href="#">What I Do...</a>
+                <a href="#services">What I Do...</a>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contact1">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
         <ul id="slide-out" className="sidenav">
           <li>
-            <a href="#">About Me</a>
+            <a href="#aboutMe">About Me</a>
           </li>
           <li>
-            <a href="#">What I Do...</a>
+            <a href="#services">What I Do...</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact1">Contact</a>
           </li>
         </ul>
       </div>
