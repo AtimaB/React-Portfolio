@@ -23,7 +23,7 @@ class WhatIDo extends Component {
               <a
                 className="btn-small"
                 href={Resume}
-                download=""
+                download="Resume"
                 style={{
                   marginTop: "30px",
                   marginBottom: "20px",
