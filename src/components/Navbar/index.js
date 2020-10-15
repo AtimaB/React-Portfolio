@@ -17,51 +17,49 @@ class Navbar extends Component {
         <nav>
           <div className="nav-wrapper">
             <div className="container">
-              <Link smooth to="/#aboutMe">
-                <a
-                  href="#aboutMe"
-                  data-target="slide-out"
-                  className="sidenav-trigger"
-                >
-                  <i className="material-icons">menu</i>
-                </a>
+              <Link
+                smooth
+                to="/#aboutMe"
+                data-target="slide-out"
+                className="sidenav-trigger"
+              >
+                <i className="material-icons">menu</i>
               </Link>
-              <Link smooth to="/#aboutMe">
-                <a
-                  href="#aboutMe"
-                  className="brand-logo"
-                  style={{ fontSize: "20px" }}
-                >
-                  <img
-                    src={logoImg}
-                    alt="atima's logo"
-                    style={{
-                      width: "60px",
-                      height: "50px",
-                    }}
-                  />
-                </a>
+              <Link
+                smooth
+                to="/#aboutMe"
+                className="brand-logo"
+                style={{ fontSize: "20px" }}
+              >
+                <img
+                  src={logoImg}
+                  alt="atima's logo"
+                  style={{
+                    width: "60px",
+                    height: "50px",
+                  }}
+                />
               </Link>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
                   <Link smooth to="/#aboutMe">
-                    <a href="#aboutMe">About Me</a>
+                    About Me
                   </Link>
                 </li>
 
                 <li>
                   <Link smooth to="/#services">
-                    <a href="#services">What I Do...</a>
+                    What I Do...
                   </Link>
                 </li>
                 <li>
                   <Link smooth to="/#portfolio">
-                    <a href="#portfolio">Portfolio</a>
+                    Portfolio
                   </Link>
                 </li>
                 <li>
                   <Link smooth to="/#contact1">
-                    <a href="#contact1">Contact</a>
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -71,22 +69,22 @@ class Navbar extends Component {
         <ul id="slide-out" className="sidenav">
           <li>
             <Link smooth to="/#aboutMe">
-              <a href="#aboutMe">About Me</a>
+              About Me
             </Link>
           </li>
           <li>
             <Link smooth to="/#services">
-              <a href="#services">What I Do...</a>
+              What I Do...
             </Link>
           </li>
           <li>
             <Link smooth to="/#portfolio">
-              <a href="#portfolio">Portfolio</a>
+              Portfolio
             </Link>
           </li>
           <li>
             <Link smooth to="/#contact1">
-              <a href="#contact1">Contact</a>
+              Contact
             </Link>
           </li>
         </ul>

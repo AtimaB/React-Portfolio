@@ -16,7 +16,7 @@ function Card(props) {
         <div className="col s12 m3 l3">
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
-              <img class="activator" alt="project's img" src={props.img} />
+              <img className="activator" alt="project's img" src={props.img} />
             </div>
             <div className="card-content" style={{ backgroundColor: "black" }}>
               <span
