@@ -25,11 +25,11 @@
   },
   {
     "id": 4,
-    "name": "Work Day Scheduler",
-    "img": "./works/calendar.jpg",
-    "detail": "A simple calendar application that allows the user to save events for each hour of the day.",
-    "deployLink": "https://atimab.github.io/work-calendar/",
-    "githubLink": "https://github.com/AtimaB/work-calendar"
+    "name": "Employee Directory",
+    "img": "./works/employeeDirectory.png",
+    "detail": "An employee directory with React by breaking up the application's UI into components, manage component state, and respond to user events.",
+    "deployLink": "https://atimab.github.io/Employee-Directory/#/",
+    "githubLink": "https://github.com/AtimaB/Employee-Directory"
   },
   {
     "id": 5,
@@ -49,6 +49,14 @@
   },
   {
     "id": 7,
+    "name": "Workout Tracker",
+    "img": "./works/cardio.png",
+    "detail": "A workout tracker by using Mongo database with a Mongoose schema and handle routes with Express.",
+    "deployLink": "https://the-fit-club.herokuapp.com/",
+    "githubLink": "https://github.com/AtimaB/Workout-Tracker"
+  },
+  {
+    "id": 8,
     "name": "Employee Tracker",
     "img": "./works/employeeTracker.gif",
     "detail": "An interfaces that make it easy for bussiness owner to view and interact with information stored in databases. by using node, inquirer, and MySQL.",
@@ -56,7 +64,7 @@
     "githubLink": "https://github.com/AtimaB/Employee-Tracker"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Readme Generator",
     "img": "./works/readme.gif",
     "detail": "A command-line application that generates a professional README.md from a user's input using the Inquirer package to help the user create a quality README with information about user's application for quick and easy generation of a project README to get started quickly.",
@@ -64,7 +72,7 @@
     "githubLink": "https://github.com/AtimaB/Readme-Generator"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Employee Generator",
     "img": "./works/team.gif",
     "detail": "A Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person using the Inquirer package and jest for running the provided tests.",

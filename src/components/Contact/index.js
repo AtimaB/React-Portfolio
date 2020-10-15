@@ -13,25 +13,13 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 import Resume from "./Resume.pdf";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
 
 class Contact extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <h1 id="contact">Contact</h1>
         <section className="container-section scrollspy" id="contact1">
-          <h1
-            id="contact"
-            style={{
-              marginTop: "60px",
-              marginLeft: "90px",
-              marginBottom: "30px",
-            }}
-          >
-            Contact
-          </h1>
           <div
             className="row scrollspy"
             style={{
@@ -87,7 +75,6 @@ class Contact extends Component {
             </div>
           </div>
         </section>
-        <Footer />
       </div>
     );
   }

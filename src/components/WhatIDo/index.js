@@ -5,8 +5,6 @@ import "materialize-css/dist/css/materialize.min.css";
 // get react-fontawesome imports
 import { FaFileDownload, FaWindowMaximize, FaCamera } from "react-icons/fa";
 import Resume from "./Resume.pdf";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
 
 class WhatIDo extends Component {
   componentDidMount() {
@@ -15,12 +13,13 @@ class WhatIDo extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <h1 id="whatIDo">What I Do ...</h1>
         <section className="section container scrollspy" id="services">
           <div className="row">
             <div className="col s12 l4">
-              <h2 style={{ color: "#1d9eda" }}>What I do...</h2>
-              <p>I am a Full Stack Web Developer and a Photographer.</p>
+              <p style={{ fontSize: "22px" }}>
+                I am a Full Stack Web Developer and a Photographer.
+              </p>
               <a
                 className="btn-small"
                 href={Resume}
@@ -41,7 +40,7 @@ class WhatIDo extends Component {
                 }}
                 id="tabs-swipe-demo"
                 className="tabs"
-                style={{ marginTop: "5px;" }}
+                style={{ marginTop: "5px" }}
               >
                 <li className="tab col s6">
                   <a href="#web">
@@ -101,7 +100,6 @@ class WhatIDo extends Component {
             </div>
           </div>
         </section>
-        <Footer />
       </div>
     );
   }

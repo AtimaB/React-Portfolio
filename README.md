@@ -10,3 +10,6 @@
 
 - [React Icons](https://react-icons.github.io/)
 - [How to add an image in React JS Application?](https://www.includehelp.com/react-js/how-to-add-an-image-in-react-js-application.aspx)
+- [Hash link scroll functionality for React Router](https://reactjsexample.com/hash-link-scroll-functionality-for-react-router/)
+
+- [How to create a sticky website Navbar/Header](https://getflywheel.com/layout/create-sticky-website-header-how-to/)

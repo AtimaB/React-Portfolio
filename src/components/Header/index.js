@@ -55,7 +55,7 @@ class Header extends Component {
   }
   render() {
     return (
-      <div>
+      <div style={{ marginTop: "80px" }}>
         <div className="console-container">
           <span id="text"></span>
           <div className="console-underscore" id="console">

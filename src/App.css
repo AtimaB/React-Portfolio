@@ -9,8 +9,25 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  margin: 0;
   font-family: "Poppins", sans-serif;
+}
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  height: 60px;
+  overflow: hidden;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-fixed-top.cbp-af-header-shrink {
+  height: 75px;
 }
 
 .section {
@@ -57,12 +74,19 @@ body {
 #contact {
   color: #33a189e7;
   font-size: 70px;
-  text-align: left;
-  margin-right: 30px;
-  margin-top: 40px;
+  text-align: right;
+  margin-top: "60px";
+  margin-right: 80px;
   font-family: "Poppins", sans-serif;
 }
-
+#whatIDo {
+  color: #1d9eda;
+  font-size: 70px;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: px;
+  font-family: "Poppins", sans-serif;
+}
 h1 {
   font-size: 28px;
   margin-top: 80px;
@@ -228,7 +252,6 @@ nav,
 #media:hover {
   color: aqua;
   margin-right: 10px;
-  font-size: 52px;
 }
 
 .hidden {

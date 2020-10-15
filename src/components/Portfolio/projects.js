@@ -5,14 +5,13 @@ import "materialize-css/dist/css/materialize.min.css";
 import Covid from "./works/home.jpg";
 import Fight from "./works/fight.png";
 import Password from "./works/password.png";
-import Calendar from "./works/calendar.jpg";
+import Directory from "./works/employeeDirectory.png";
 import Burger from "./works/burger.png";
 import Note from "./works/note.png";
+import Workout from "./works/cardio.png";
 import Employee from "./works/employeeTracker.gif";
 import Readme from "./works/readme.gif";
 import Team from "./works/team.gif";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
 import _ from "lodash";
 class Portfolio extends Component {
   state = {
@@ -21,9 +20,10 @@ class Portfolio extends Component {
       Covid,
       Fight,
       Password,
-      Calendar,
+      Directory,
       Burger,
       Note,
+      Workout,
       Employee,
       Readme,
       Team,
@@ -33,13 +33,11 @@ class Portfolio extends Component {
     console.log(projects);
     return (
       <div>
-        <Navbar />
-
         <h1 id="portfolio1" style={{ marginTop: "60px", marginRight: "90px" }}>
           Portfolio
         </h1>
 
-        <div className="row" style={{ margin: "20px" }}>
+        <div className="row">
           {_.zip(this.state.projects, this.state.projectsImg).map((app) => (
             <Card
               key={app[0].id}
@@ -51,8 +49,6 @@ class Portfolio extends Component {
             />
           ))}
         </div>
-
-        <Footer />
       </div>
     );
   }

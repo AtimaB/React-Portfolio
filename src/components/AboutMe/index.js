@@ -2,15 +2,10 @@ import React from "react";
 // get materialize imports
 import "materialize-css/dist/css/materialize.min.css";
 import myImg from "./photo.jpg";
-import Navbar from "../Navbar";
-import Header from "../Header";
-import Footer from "../Footer";
 
 const AboutMe = () => {
   return (
     <div>
-      <Navbar />
-      <Header />
       <section className="section container scrollspy" id="aboutMe">
         <div className="row">
           <div className="col s12 m5 l5">
@@ -41,7 +36,6 @@ const AboutMe = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 };
