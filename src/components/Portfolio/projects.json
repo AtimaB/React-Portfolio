@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Covid-19 Tracking",
+    "img": "./works/home.jpg",
+    "detail": "Covid-19 tracking with cases number, chart, news, map and basic information.",
+    "deployLink": "https://mr-cade.github.io/covid-api/",
+    "githubLink": "https://github.com/mr-cade/covid-api"
+  },
+  {
+    "id": 2,
+    "name": "The Fight Club",
+    "img": "./works/fight/png",
+    "detail": "As gamers we wanted to create a game that we could play with our friends and share with others so they could play with their friends. We drew inspiration from a simple youtube video that showed how to create a multiplayer game in a browser then to decided to take the multiplayer aspect and make a Mortal Kombat style game. We wanted the ability for players to be able to track their score and save their scores to see who can achieve the highest score out of our friends.",
+    "deployLink": "https://the-fight-club.herokuapp.com/",
+    "githubLink": "https://github.com/AtimaB/The-Fight-Club"
+  },
+  {
+    "id": 3,
+    "name": "Password Generator",
+    "img": "./works/password.png",
+    "detail": "This application generates a random password based on user-selected criteria. It will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.",
+    "deployLink": "https://atimab.github.io/Password-Generator/",
+    "githubLink": "ttps://github.com/AtimaB/Password-Generator"
+  },
+  {
+    "id": 4,
+    "name": "Work Day Scheduler",
+    "img": "./works/calendar.jpg",
+    "detail": "A simple calendar application that allows the user to save events for each hour of the day.",
+    "deployLink": "https://atimab.github.io/work-calendar/",
+    "githubLink": "https://github.com/AtimaB/work-calendar"
+  },
+  {
+    "id": 5,
+    "name": "Eat-Da Burger",
+    "img": "./works/burger.png",
+    "detail": "A burger logger with MySQL, Node, Express, Handlebars and ORM. I use Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.",
+    "deployLink": "https://burger-burger-baby.herokuapp.com/",
+    "githubLink": "https://github.com/AtimaB/Burger"
+  },
+  {
+    "id": 6,
+    "name": "Note Taker",
+    "img": "./works/note.png",
+    "detail": "An application that can be used to write, save, and delete notes by using an express backend and save and retrieve note data from a JSON file.",
+    "deployLink": "https://note-note-taker.herokuapp.com/",
+    "githubLink": "https://github.com/AtimaB/Note-Taker"
+  },
+  {
+    "id": 7,
+    "name": "Employee Tracker",
+    "img": "./works/employeeTracker.gif",
+    "detail": "An interfaces that make it easy for bussiness owner to view and interact with information stored in databases. by using node, inquirer, and MySQL.",
+    "deployLink": "",
+    "githubLink": "https://github.com/AtimaB/Employee-Tracker"
+  },
+  {
+    "id": 8,
+    "name": "Readme Generator",
+    "img": "./works/readme.gif",
+    "detail": "A command-line application that generates a professional README.md from a user's input using the Inquirer package to help the user create a quality README with information about user's application for quick and easy generation of a project README to get started quickly.",
+    "deployLink": "",
+    "githubLink": "https://github.com/AtimaB/Readme-Generator"
+  },
+  {
+    "id": 9,
+    "name": "Employee Generator",
+    "img": "./works/team.gif",
+    "detail": "A Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person using the Inquirer package and jest for running the provided tests.",
+    "deployLink": "",
+    "githubLink": "https://github.com/AtimaB/Employee-Generator"
+  }
+]

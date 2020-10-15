@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 // get materialize imports
+import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-// get react-fontawesome imports
+import Navbar from "../Navbar";
+import Header from "../Header";
+import myImg from "../AboutMe/photo.jpg";
 import {
   FaFileDownload,
   FaFacebookSquare,
@@ -12,15 +15,48 @@ import {
   FaEnvelope,
   FaPhoneAlt,
 } from "react-icons/fa";
-import Resume from "./Resume.pdf";
-import Navbar from "../Navbar";
+import Resume from "../WhatIDo/Resume.pdf";
 import Footer from "../Footer";
 
-class Contact extends Component {
+class Index extends Component {
+  componentDidMount() {
+    M.Tabs.init(this.Tabs);
+  }
   render() {
     return (
       <div>
         <Navbar />
+        <Header />
+        <section className="section container scrollspy" id="aboutMe">
+          <div className="row">
+            <div className="col s12 m5 l5">
+              <span className="flow-text">
+                <img
+                  src={myImg}
+                  alt="atima's img"
+                  style={{ width: "250px", height: "250px" }}
+                />
+              </span>
+            </div>
+
+            <div className="col s12 m7 l7">
+              <p>
+                I am a Full Stack Web Developer and a photographer. I live in
+                Draper, Utah. I am originally from Thailand. I love traveling. I
+                love snowboarding, hiking, biking and going for a walk.
+                <br />
+                <br />I graduated in bachelor’s degree in Chinese culture and
+                Language from Silpakorn University, Thailand. I was a barista
+                and assistance manager at Starbucks and the General Store at
+                Jackson Hole Mountain Resort.
+                <br />
+                <br />
+                In 2015,I moved to California, I was a graphic designer, a
+                photographer and a marketing for Do Good Distillery.
+              </p>
+            </div>
+          </div>
+        </section>
         <section className="container-section scrollspy" id="contact1">
           <h1
             id="contact"
@@ -92,5 +128,4 @@ class Contact extends Component {
     );
   }
 }
-
-export default Contact;
+export default Index;

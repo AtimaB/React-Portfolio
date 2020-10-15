@@ -5,6 +5,8 @@ import "materialize-css/dist/css/materialize.min.css";
 // get react-fontawesome imports
 import { FaFileDownload, FaWindowMaximize, FaCamera } from "react-icons/fa";
 import Resume from "./Resume.pdf";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 class WhatIDo extends Component {
   componentDidMount() {
@@ -13,6 +15,7 @@ class WhatIDo extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <section className="section container scrollspy" id="services">
           <div className="row">
             <div className="col s12 l4">
@@ -98,6 +101,7 @@ class WhatIDo extends Component {
             </div>
           </div>
         </section>
+        <Footer />
       </div>
     );
   }
