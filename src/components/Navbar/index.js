@@ -26,7 +26,7 @@ class Navbar extends Component {
               <a href="#" data-target="slide-out" className="sidenav-trigger">
                 <i className="material-icons">menu</i>
               </a>
-              <a href="#" class="brand-logo" style={{ fontSize: "20px" }}>
+              <a href="#" className="brand-logo" style={{ fontSize: "20px" }}>
                 <img
                   src={logoImg}
                   alt="atima's logo"
