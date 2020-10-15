@@ -4,7 +4,7 @@
 
 ## Description
 
-I create my portfolio with React by breaking up the portfolio's UI into components. It's a huge challanging to do this project. I tried to make an exact portfolio as the one I have and I am very happy on how it turns out.
+I create my portfolio with React by breaking up the portfolio's UI into components. It's a huge challenging to do this project. I tried to make an exact portfolio as the one I have and I am very happy on how it turns out.
 
 ## Link
 

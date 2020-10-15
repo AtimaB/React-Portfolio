@@ -23,16 +23,17 @@ const AboutMe = () => {
             <p>
               I am a Full Stack Web Developer and a photographer. I live in
               Draper, Utah. I am originally from Thailand. I love traveling. I
-              love snowboarding, hiking, biking and going for a walk.
+              love snowboarding, hiking, biking and going for a walks.
               <br />
-              <br />I graduated in bachelor’s degree in Chinese culture and
+              <br />I graduated with a bachelor’s degree in Chinese Culture and
               Language from Silpakorn University, Thailand. I was a barista and
-              assistance manager at Starbucks and the General Store at Jackson
-              Hole Mountain Resort.
+              assistant manager at Starbucks in Jackson Hole, Wyoming. I was an
+              assistant manager at the General Store at Jackson Hole Mountain
+              Resort Teton Village, Wyoming.
               <br />
               <br />
-              In 2015,I moved to California, I was a graphic designer, a
-              photographer and a marketing for Do Good Distillery.
+              In 2015,I moved to California, I was a graphic designer and a
+              photographer for Do Good Distillery.
             </p>
           </div>
         </div>
