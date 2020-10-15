@@ -15,11 +15,12 @@ function Card(props) {
               <img class="activator" src={props.img} />
             </div>
             <div className="card-content" style={{ backgroundColor: "black" }}>
-              <span className="card-title activator white-text">
+              <span
+                className="card-title activator white-text"
+                style={{ fontSize: "18px" }}
+              >
                 {props.name}
-                <i className="material-icons right">
-                  more_vert data-rel={props.id}
-                </i>
+                <i className="material-icons right">more_vert</i>
               </span>
               <p>
                 <a

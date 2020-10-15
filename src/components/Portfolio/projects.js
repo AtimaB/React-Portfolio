@@ -38,6 +38,7 @@ class Portfolio extends Component {
         <h1 id="portfolio1" style={{ marginTop: "60px", marginRight: "90px" }}>
           Portfolio
         </h1>
+
         <div className="row" style={{ margin: "20px" }}>
           {_.zip(this.state.projects, this.state.projectsImg).map((app) => (
             <Card
@@ -50,6 +51,7 @@ class Portfolio extends Component {
             />
           ))}
         </div>
+
         <Footer />
       </div>
     );

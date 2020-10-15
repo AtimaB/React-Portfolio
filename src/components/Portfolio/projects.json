@@ -21,7 +21,7 @@
     "img": "./works/password.png",
     "detail": "This application generates a random password based on user-selected criteria. It will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.",
     "deployLink": "https://atimab.github.io/Password-Generator/",
-    "githubLink": "ttps://github.com/AtimaB/Password-Generator"
+    "githubLink": "https://github.com/AtimaB/Password-Generator"
   },
   {
     "id": 4,
