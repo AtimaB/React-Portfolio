@@ -9,6 +9,7 @@ import Directory from "./works/employeeDirectory.png";
 import Burger from "./works/burger.png";
 import Note from "./works/note.png";
 import Workout from "./works/cardio.png";
+import Budget from "./works/budget.png";
 import Employee from "./works/employeeTracker.gif";
 import Readme from "./works/readme.gif";
 import Team from "./works/team.gif";
@@ -24,6 +25,7 @@ class Portfolio extends Component {
       Burger,
       Note,
       Workout,
+      Budget,
       Employee,
       Readme,
       Team,

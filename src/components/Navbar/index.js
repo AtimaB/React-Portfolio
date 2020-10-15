@@ -15,13 +15,7 @@ class Navbar extends Component {
     return (
       <div className="navbar-fixed-top">
         <nav>
-          <div
-            className="nav-wrapper"
-            style={{
-              paddingBottom: "10px",
-              paddingTop: "10px",
-            }}
-          >
+          <div className="nav-wrapper">
             <div className="container">
               <Link smooth to="/#aboutMe">
                 <a

@@ -57,11 +57,11 @@
   },
   {
     "id": 8,
-    "name": "Employee Tracker",
+    "name": "Budget Tracker",
     "img": "./works/employeeTracker.gif",
     "detail": "An interfaces that make it easy for bussiness owner to view and interact with information stored in databases. by using node, inquirer, and MySQL.",
-    "deployLink": "",
-    "githubLink": "https://github.com/AtimaB/Employee-Tracker"
+    "deployLink": "https://boiling-sands-53677.herokuapp.com/",
+    "githubLink": "https://github.com/AtimaB/Budget-Tracker"
   },
   {
     "id": 9,
@@ -78,5 +78,13 @@
     "detail": "A Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person using the Inquirer package and jest for running the provided tests.",
     "deployLink": "",
     "githubLink": "https://github.com/AtimaB/Employee-Generator"
+  },
+  {
+    "id": 11,
+    "name": "Employee Tracker",
+    "img": "./works/budget.png",
+    "detail": "A Budget Tracker application to allow for offline access and functionality.",
+    "deployLink": "",
+    "githubLink": "https://github.com/AtimaB/Employee-Tracker"
   }
 ]
