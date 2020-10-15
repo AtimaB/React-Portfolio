@@ -1,5 +1,27 @@
 # React Portfolio
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+## Description
+
+I create my portfolio with React by breaking up the portfolio's UI into components. It's a huge challanging to do this project. I tried to make an exact portfolio as the one I have and I am very happy on how it turns out.
+
+## Link
+
+#### [Click here for deployed link!]()
+
+## License
+
+- This project uses the following license: **MIT**
+
+## Screenshots
+
+![React Portfolio](./src/Assets/reactPortfolio.png)
+
+## Resources
+
+- [Text Animation](https://codepen.io/Tbgse/pen/dYaJyJ)
+
 - [React + Materialize SideNav in 4 steps](https://medium.com/@hamza.el/react-materialize-sidenav-in-4-steps-7365f6176b09)
 
 - [React App with Materialize CSS Part 1 - From CDN](https://www.youtube.com/watch?v=FR3cLra8DiE)
