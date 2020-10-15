@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // get materialize imports
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-// get react-fontawesome imports
+// get react icoms imports
 import { FaFileDownload, FaWindowMaximize, FaCamera } from "react-icons/fa";
 import Resume from "./Resume.pdf";
 

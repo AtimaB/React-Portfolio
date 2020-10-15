@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
 // import { BrowserRouter, Route } from "react-router-dom";
 import "materialize-css/dist/css/materialize.min.css";
+// import scroll down
 import { HashLink as Link } from "react-router-hash-link";
+// import logo
 import logoImg from "./ablogoWhite.png";
 
 class Navbar extends Component {

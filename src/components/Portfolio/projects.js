@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import Card from "./Card";
+// import JSON file for all the projects
 import projects from "./projects.json";
+// import Materialize
 import "materialize-css/dist/css/materialize.min.css";
+// import all the images for the projects
 import Covid from "./works/home.jpg";
 import Fight from "./works/fight.png";
 import Password from "./works/password.png";

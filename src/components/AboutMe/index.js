@@ -1,6 +1,7 @@
 import React from "react";
 // get materialize imports
 import "materialize-css/dist/css/materialize.min.css";
+//import image
 import myImg from "./photo.jpg";
 
 const AboutMe = () => {

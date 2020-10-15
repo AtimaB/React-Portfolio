@@ -1,8 +1,7 @@
 import React from "react";
 // get materialize imports
-// import M from "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
-// get react-fontawesome imports
+// get react icons imports
 import { FaGithub, FaWindowMaximize } from "react-icons/fa";
 
 function Card(props) {

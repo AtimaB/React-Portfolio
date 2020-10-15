@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // get materialize imports
 import "materialize-css/dist/css/materialize.min.css";
-// get react-fontawesome imports
+// get react icons imports
 import {
   FaFileDownload,
   FaFacebookSquare,
