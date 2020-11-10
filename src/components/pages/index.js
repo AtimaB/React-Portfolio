@@ -23,6 +23,7 @@ class Index extends Component {
         <WhatIDo />
         <Portfolio />
         <Contact />
+
         <Footer />
       </div>
     );
