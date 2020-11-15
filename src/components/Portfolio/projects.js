@@ -16,7 +16,7 @@ import Budget from "./works/budget.png";
 import Employee from "./works/employeeTracker.gif";
 import Readme from "./works/readme.gif";
 import Team from "./works/team.gif";
-import Trade from "./works/trade1.png";
+import Trade1 from "./works/trade1.png";
 import _ from "lodash";
 class Portfolio extends Component {
   state = {
@@ -24,7 +24,7 @@ class Portfolio extends Component {
     projectsImg: [
       Covid,
       Fight,
-      Trade,
+      Trade1,
       Password,
       Directory,
       Burger,
