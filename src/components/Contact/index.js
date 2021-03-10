@@ -32,8 +32,8 @@ class Contact extends Component {
               <div className="col s12 m12 l6">
                 <h5>Contact Information</h5>
                 <br />
-                <a id="mail" href="mailto: nickzehn10@hotmail.com">
-                  <FaEnvelope /> : nickzehn10@hotmail.com
+                <a id="mail" href="mailto: atimabennettweb@gmail.com">
+                  <FaEnvelope /> : atimabennettweb@gmail.com
                 </a>
                 <br />
                 <br />
